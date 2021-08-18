@@ -1,0 +1,22 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#product-overview {
+  background: tomato; 
+}  
+
+.section-title {
+  color: #2ddf5c;
+  /* font-family: inherit; */
+}
+
+/* h1 { */
+#product-overview h1 {
+  color:#fff; 
+  font-family: 'Georama', sans-serif;
+}
+
+/* h1 {
+  font-family: sans-serif;
+} */
