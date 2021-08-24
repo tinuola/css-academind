@@ -1,21 +1,37 @@
 body {
-    font-family: sans-serif;
+	font-family: sans-serif;
 }
 
 nav {
-    margin-bottom: 16px;
-    background: #fa923f;
-    padding: 8px 0;
+	margin-bottom: 16px;
+	background: #fa923f;
+	padding: 8px 0;
 }
 
 a {
-    text-decoration: none;
-    color: white;
-    margin: 10px;
+	text-decoration: none;
+	color: white;
+	margin: 10px;
 }
 
+a.active {
+	border-bottom: 2px solid #521751;
+}
+
+a:not(.active) {
+	color: red;
+}
+
+/* .highlighted {
+	border: 2px solid #fa923f !important;
+} */
+
 .main-section {
-    height: 800px;
-    border: 1px solid #ccc;
-    padding: 16px;
+	height: 800px;
+	border: 1px solid #ccc;
+	padding: 16px;
+}
+
+.highlighted {
+	border: 2px solid #fa923f;
 }
